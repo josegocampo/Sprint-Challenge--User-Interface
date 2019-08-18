@@ -71,12 +71,35 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    padding: 30px;
+}
+
+header .lambdalogo {
+    margin-bottom: 20px;
+    margin-right: 15px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px; 
 }
 
 .top-content .text-container {
@@ -104,13 +127,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 { 
+    background: teal;
+}
+
+.box2 { 
+    background: gold;
+}
+
+.box3 { 
+    background:cadetblue;
+}
+
+.box4 { 
+    background: coral;
+}
+
+.box5 { 
+    background: crimson;
+}
+
+.box6 { 
+    background: forestgreen;
+}
+
+.box7 { 
+    background: darkorchid;
+}
+
+.box8 { 
+    background: hotpink;
+}
+
+.box9 { 
+    background: indigo;
+}
+
+.box10 { 
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
