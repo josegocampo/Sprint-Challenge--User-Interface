@@ -303,3 +303,90 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* Products Site Specifics */
+
+.lambdaclass {
+    margin-left: 50px;
+}
+
+.contentbox3 {
+	width: 400px;
+	height:450px;
+    padding: 18px;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.contentbox4 {
+	width: 400px;
+	height:450px;
+    padding: 18px;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+@media (min-width: 440px){
+    body{
+        background-color: rgba(44, 39, 39, 0.164);
+
+    }
+    
+    }
+
+
+    @media (min-width: 600px){
+        body{
+            background-color: rgb(226, 147, 147);
+
+        }
+        
+        }
+
+
+    @media (min-width: 700px){
+        body{
+            background-color: rgb(255, 208, 138);
+
+        }
+        
+        }
+
+    @media (min-width: 800px){
+        body{
+            background-color: rgb(205, 145, 253);
+
+        }
+        
+        }
+         
+        @media (min-width: 900px){
+            body{
+                background-color: rgba(243, 235, 149, 0.911);
+    
+            }
+         
+        }
+
+        @media (min-width: 1000px){
+            body{
+                background-color:rgba(141, 243, 158, 0.904);
+    
+            }
+        }
+         
+        @media (min-width: 1100px){
+            body{
+                background-color:rgba(143, 215, 224, 0.836);
+    
+            }
+        }
+         
+        @media (min-width: 1200px){
+            body{
+                background-color: white;
+    
+            }
+         
+        }
