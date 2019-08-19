@@ -71,12 +71,35 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    padding: 30px;
+}
+
+header .lambdalogo {
+    margin-bottom: 20px;
+    margin-right: 15px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px; 
 }
 
 .top-content .text-container {
@@ -104,13 +127,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 { 
+    background: teal;
+}
+
+.box2 { 
+    background: gold;
+}
+
+.box3 { 
+    background:cadetblue;
+}
+
+.box4 { 
+    background: coral;
+}
+
+.box5 { 
+    background: crimson;
+}
+
+.box6 { 
+    background: forestgreen;
+}
+
+.box7 { 
+    background: darkorchid;
+}
+
+.box8 { 
+    background: hotpink;
+}
+
+.box9 { 
+    background: indigo;
+}
+
+.box10 { 
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +207,190 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+ 
+/* About Page Specifics */
+
+.container-about {
+    width: 900px;
+}
+
+.jumboabout {
+    margin-left: 50px;
+}
+
+.about-topcontent{
+    width: 810px; 
+    text-align: left;
+    margin-left: 50px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed black;
+}
+
+.contentboxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentbox1 {
+	width: 400px;
+	height:400px;
+    padding: 18px;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.contentbox2 {
+	width: 400px;
+	height:400px;
+	padding: 18px;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+	
+
+.contentbox3 {
+	width: 400px;
+	height:400px;
+    padding: 18px;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.contentbox4 {
+	width: 400px;
+	height:400px;
+    padding: 18px;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.button {
+	width: 100px;
+	height: 40px;
+	border: 2px solid black;
+	background: white;
+	font-size: 15px;
+    border-radius:5px;
+    margin-top: 10px;
+		}
+
+.bottom {
+    margin-top: 20px;
+    width: 900px; 
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.about-footer {
+    margin-top: 30px;
+    width: 80%;
+    background: black;
+    margin-left: 80px;
+}
+
+.about-footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.about-footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Products Site Specifics */
+
+.lambdaclass {
+    margin-left: 50px;
+}
+
+.contentbox3 {
+	width: 400px;
+	height:450px;
+    padding: 18px;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.contentbox4 {
+	width: 400px;
+	height:450px;
+    padding: 18px;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+@media (min-width: 440px){
+    body{
+        background-color: rgba(44, 39, 39, 0.164);
+
+    }
+    
+    }
+
+
+    @media (min-width: 600px){
+        body{
+            background-color: rgb(226, 147, 147);
+
+        }
+        
+        }
+
+
+    @media (min-width: 700px){
+        body{
+            background-color: rgb(255, 208, 138);
+
+        }
+        
+        }
+
+    @media (min-width: 800px){
+        body{
+            background-color: rgb(205, 145, 253);
+
+        }
+        
+        }
+         
+        @media (min-width: 900px){
+            body{
+                background-color: rgba(243, 235, 149, 0.911);
+    
+            }
+         
+        }
+
+        @media (min-width: 1000px){
+            body{
+                background-color:rgba(141, 243, 158, 0.904);
+    
+            }
+        }
+         
+        @media (min-width: 1100px){
+            body{
+                background-color:rgba(143, 215, 224, 0.836);
+    
+            }
+        }
+         
+        @media (min-width: 1200px){
+            body{
+                background-color: white;
+    
+            }
+         
+        }
+
+
+
+        
