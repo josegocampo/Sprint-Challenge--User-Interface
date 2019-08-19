@@ -207,3 +207,99 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+ 
+/* About Page Specifics */
+
+.container-about {
+    width: 900px;
+}
+
+.jumboabout {
+    margin-left: 50px;
+}
+
+.about-topcontent{
+    width: 810px; 
+    text-align: left;
+    margin-left: 50px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed black;
+}
+
+.contentboxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentbox1 {
+	width: 400px;
+	height:400px;
+    padding: 18px;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.contentbox2 {
+	width: 400px;
+	height:400px;
+	padding: 18px;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+	
+
+.contentbox3 {
+	width: 400px;
+	height:400px;
+    padding: 18px;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.contentbox4 {
+	width: 400px;
+	height:400px;
+    padding: 18px;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.button {
+	width: 100px;
+	height: 40px;
+	border: 2px solid black;
+	background: white;
+	font-size: 15px;
+    border-radius:5px;
+    margin-top: 10px;
+		}
+
+.bottom {
+    margin-top: 20px;
+    width: 900px; 
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.about-footer {
+    margin-top: 30px;
+    width: 80%;
+    background: black;
+    margin-left: 80px;
+}
+
+.about-footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.about-footer nav a {
+    color: white;
+    text-decoration: none;
+}
